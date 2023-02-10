@@ -1,0 +1,88 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 32px !important;
+    line-height: 32px !important;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+p,
+li {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0px;
+}
+
+ul li {
+    padding: 5px 0px 5px 0px;
+}
+
+
+ol li {
+    padding: 10px 0px 10px 0px;
+}
+
+/****/
+
+/* Title */
+
+#title {
+    font-size: 36px;
+    line-height: 36px;
+    border-bottom: 2px black solid;
+    font-weight: 500;
+}
+
+
+/* First paragraph */
+
+#first-paragraph {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/* col-main */
+
+#col-main {
+    margin: 0px auto;
+    max-width: 950px;
+}
+
+
+/* col-ingrediënten */
+
+#col-ingrediënten ul {
+    padding-left: 35px;
+}
+
+
+/* col-tip */
+
+#col-tip {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #def6ed;
+    margin-bottom: 40px;
+    border-radius: 4px;
+}
+
+
+/* Nav bar */
+
+.bg-body-tertiary {
+    margin-bottom: 40px;
+}
+
+#col-brood-foto img,
+#col-appelbollen-foto img {
+    max-width: 600px;
+}

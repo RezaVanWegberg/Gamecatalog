@@ -4,21 +4,19 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font-size: 32px;
-}
 
+h1,
 h2 {
-    font-size: 32px !important;
-    line-height: 32px !important;
+    font-size: 23px !important;
+    /* line-height: 32px !important; */
     font-weight: 500;
     margin-top: 40px;
 }
 
 p,
 li {
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 16px;
+    /* line-height: 26px; */
     margin: 0px;
 }
 
@@ -31,50 +29,63 @@ ol li {
     padding: 10px 0px 10px 0px;
 }
 
+/* flex */
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+
+}
+
+.flex1 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
 /****/
-
-/* Title */
-
-#title {
-    font-size: 36px;
-    line-height: 36px;
-    border-bottom: 2px black solid;
-    font-weight: 500;
-}
-
-
-/* First paragraph */
-
-#first-paragraph {
-    font-size: 24px;
-    line-height: 32px;
-}
 
 /* col-main */
 
 #col-main {
     margin: 0px auto;
-    max-width: 950px;
+    max-width: 1000px;
 }
 
 
-/* col-ingrediënten */
+/* border */
 
-#col-ingrediënten ul {
-    padding-left: 35px;
+.-border- {
+    border: 3px solid black;
+    padding: 10px;
+
+
+}
+
+/* game title */
+
+#game-title {
+    flex: 4;
 }
 
 
-/* col-tip */
+/* game-info */
 
-#col-tip {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #def6ed;
-    margin-bottom: 40px;
-    border-radius: 4px;
+#game-info {
+    flex: 2;
 }
 
+#game-info p {
+    margin: 0px;
+    font-weight: 500;
+}
 
 /* Nav bar */
 

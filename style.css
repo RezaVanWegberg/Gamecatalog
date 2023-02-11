@@ -11,6 +11,7 @@ h2 {
     /* line-height: 32px !important; */
     font-weight: 500;
     margin-top: 40px;
+    margin-bottom: 15px !important;
 }
 
 p,
@@ -120,6 +121,18 @@ ol li {
     width: 150px;
     height: 150px;
 }
+
+
+/* recenties */
+
+#recenties p {
+    margin-bottom: 0px;
+}
+
+#recenties div {
+    margin-bottom: 20px;
+}
+
 
 
 /* Nav bar */

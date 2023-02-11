@@ -29,6 +29,11 @@ ol li {
     padding: 10px 0px 10px 0px;
 }
 
+section {
+    margin-top: 10px;
+}
+
+
 /* flex */
 
 .row {
@@ -104,13 +109,21 @@ ol li {
     margin-bottom: 40px;
 }
 
+/* image container */
+.image-container {
+    padding: 0px !important;
+    margin: 10px;
+    border: black 3px solid;
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+}
+
+
 /* Nav bar */
 
 .bg-body-tertiary {
     margin-bottom: 40px;
-}
-
-#col-brood-foto img,
-#col-appelbollen-foto img {
-    max-width: 600px;
 }

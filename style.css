@@ -46,8 +46,12 @@ ol li {
 
 .flex1 {
     display: flex;
-    flex: 1;
-    justify-content: center;
+    padding: 10px 5px;
+}
+
+
+.flex-basis-content {
+    flex-basis: content;
 }
 
 /****/
@@ -69,10 +73,19 @@ ol li {
 
 }
 
+.-genre-border- {
+    border: 3px solid black;
+    padding: 3px 0px;
+}
+
 /* game title */
 
 #game-title {
     flex: 4;
+}
+
+#game-title .row {
+    column-gap: 10px;
 }
 
 
@@ -82,9 +95,13 @@ ol li {
     flex: 2;
 }
 
-#game-info p {
+#game-info #info p {
     margin: 0px;
     font-weight: 500;
+}
+
+#game-info #info {
+    margin-bottom: 40px;
 }
 
 /* Nav bar */

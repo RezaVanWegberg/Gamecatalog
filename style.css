@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap'); */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
 }
 
 
@@ -61,6 +61,12 @@ ol li {
 }
 
 /****/
+
+/* body */
+
+body {
+    background-color: #ffe4c4 !important;
+}
 
 /* col-main */
 
@@ -139,4 +145,11 @@ ol li {
 
 .bg-body-tertiary {
     margin-bottom: 40px;
+}
+
+
+/* Nav item */
+
+.nav-item {
+    border: 3px solid black;
 }

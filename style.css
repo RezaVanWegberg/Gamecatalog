@@ -124,7 +124,7 @@ body {
 }
 
 .image-container img {
-    width: 150px;
+    width: auto;
     height: 150px;
 }
 
